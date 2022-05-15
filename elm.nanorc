@@ -13,7 +13,7 @@ color purple "[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)"
 color orange  "'\w*'"
 
 # Strings
-color yellow ""\w*""
+color brightyellow ""\w*""
 color brightyellow start=""""" end="""""
 
 # Types
