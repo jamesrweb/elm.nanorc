@@ -1,0 +1,26 @@
+syntax "Elm" "\.elm$"
+
+# Comments
+color gray "--.*"
+color gray "\{-"
+color gray "-\}"
+color gray start="\{-" end="-\}"
+
+# Numbers
+color purple "[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)"
+
+# Chars
+color orange  "'\w*'"
+
+# Strings
+color yellow ""\w*""
+color brightyellow start=""""" end="""""
+
+# Types
+color brightblue "\b([A-Z]{1}([a-z]+)?)+\b"
+
+# Expressions
+color red "\b(if|then|else|case|of|type|alias|module|import|exposing|let|in|port)\b"
+
+# Operators
+color brightblue "\((\+|-||\*|\\|\\\\|%|<|>|>=|<=|==|!=|\+\+|&&|\|\||not|xor)\)|(\|>|<\|)"
