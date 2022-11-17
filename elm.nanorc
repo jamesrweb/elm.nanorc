@@ -10,7 +10,7 @@ color gray start="\{-" end="-\}"
 color purple "[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)"
 
 # Chars
-color orange  "'\w*'"
+color orange  "'\w{1}'"
 
 # Strings
 color brightyellow ""\w*""
